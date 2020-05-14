@@ -8,8 +8,8 @@ const choices = {
 };
 let state = State({
     board: [-1, -1, -1, -1, -1, -1, -1, -1, -1],
-    // isPlayerTurn: Math.random() < 0.5,
-    isPlayerTurn: true,
+    isPlayerTurn: Math.random() < 0.5,
+    // isPlayerTurn: true,
     winner: -1,
 });
 let computer = AI();
